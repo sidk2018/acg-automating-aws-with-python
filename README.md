@@ -9,4 +9,4 @@ configure Route 53 and cloud front as well.
 webotron currently has the following features
 
 - List Buckets
-- list contents bucket of the bucket
+- List contents bucket of the bucket
