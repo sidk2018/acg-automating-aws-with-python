@@ -10,6 +10,7 @@ webotron currently has the following features
 
 - List Buckets
 - List contents bucket of the bucket
+- create and setup-bucket 
 
 
 ## sid-note
@@ -27,3 +28,7 @@ pipenv run python webotron/webotron.py
    # or
 pipenv shell 
 python webotron/webotron.py
+
+# create bucket with var regiion not self
+ new_bucket = s3.create_bucket(Bucket= "ttgen-python-automation-lab-01",CreateBucketConfigur
+   ...: ation={"LocationConstraint":session.region_name})
