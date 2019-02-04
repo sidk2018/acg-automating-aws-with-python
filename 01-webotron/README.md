@@ -10,3 +10,20 @@ webotron currently has the following features
 
 - List Buckets
 - List contents bucket of the bucket
+
+
+## sid-note
+pipenv --three
+ #create python 3 env
+pipenv install boto3
+ # boto3
+pipenv install -d ipython
+ # ipython -d dev env use
+ # Installing ipython…
+  #Adding ipython to Pipfile's [dev-packages]…
+pipenv run ipython -i .\ipythonsession.py
+  # run ipython in dev environment with session settings
+pipenv run python webotron/webotron.py
+   # or
+pipenv shell 
+python webotron/webotron.py
